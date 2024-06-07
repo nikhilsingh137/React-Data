@@ -1,0 +1,136 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+
+  .headerfile {
+    width: 20%;
+    padding: 10px;
+    img {
+      width: 100%;
+    }
+  }
+  .headertext {
+    display: block;
+
+    .headertop {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      .side {
+        display: flex;
+        align-items: center;
+        border-bottom: solid 1px #ff0000;
+        justify-content: space-between;
+        .side1 {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          gap: 24px;
+
+          i {
+            font-size: 16px;
+            color: #807c8c;
+          }
+          input {
+            height: 45px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            color: #fff;
+            width: 340px;
+          }
+        }
+        .button {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          button {
+            height: 40px;
+            color: #fff;
+            border: none;
+            background: #0000ff;
+            width: 50px;
+            border-radius: 4px;
+          }
+        }
+      }
+      .headerIcon {
+        display: flex;
+        padding: 0px 10px;
+        ul {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            background: #ff0000;
+            height: 40px;
+            padding: 9px 14px;
+            border-right: solid 1px #ddd;
+            color: #fff;
+            width: 20%;
+            display: block;
+            :last-child {
+              border-right: none;
+            }
+            :nth-child(2) {
+              background: #0000ff;
+            }
+          }
+        }
+      }
+    }
+    .bottom {
+      display: block;
+      background: #03174f;
+      border-top-left-radius: 20px;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin-top: 10px;
+        padding: 16px 15px;
+        li {
+          display: block;
+          position: relative;
+          :hover .dropdown {
+            display: block;
+          }
+
+          a {
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            .dropdown {
+              position: absolute;
+              width: 200px;
+              height: 300px;
+              background: #fff;
+              border-radius: 20px;
+              display: none;
+              z-index: 9999;
+              a {
+                display: block;
+                color: #000;
+                text-align: center;
+                line-height: 60px;
+                border-bottom: solid 1px #ddd;
+                :last-child {
+                  border: none;
+                }
+                :hover {
+                  background: #0000ff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

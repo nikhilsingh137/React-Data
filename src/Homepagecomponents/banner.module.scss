@@ -1,0 +1,121 @@
+.banner {
+  background-image: url(../Homepagecomponents/img/hero-bg.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  .bannerimage {
+    width: 65%;
+    .bannerpic {
+      width: 600px;
+      margin: auto;
+    }
+  }
+  .bannertext {
+    width: 28%;
+    padding: 0px 15px;
+    .bannertop {
+      display: flex;
+      background: #fff;
+      align-items: center;
+      gap: 40px;
+      img {
+        border-right: solid 1px #ddd;
+        padding: 0px 10px;
+      }
+      .timer {
+        display: block;
+        .bannertime {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          h2 {
+            background: #0000ff;
+            font-size: 16px;
+            color: #fff;
+            padding: 6px 7px;
+          }
+          h3 {
+            background: #0000ff;
+            font-size: 16px;
+            color: #fff;
+            padding: 6px 13px;
+          }
+          h4 {
+            background: #0000ff;
+            font-size: 16px;
+            color: #fff;
+            padding: 6px 13px;
+          }
+          h5 {
+            background: #0000ff;
+            font-size: 16px;
+            color: #fff;
+            padding: 6px 7px;
+          }
+        }
+        .timetext {
+          display: block;
+          margin-top: 10px;
+          img {
+            padding: 0;
+            border: none;
+          }
+        }
+      }
+    }
+    .director {
+      background: #1babc6;
+      padding: 20px;
+      h2 {
+        font-size: 17px;
+        color: #fff;
+        font-weight: 500;
+      }
+      h6 {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+      p {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+    }
+    .color {
+      background: #00376b;
+      padding: 20px;
+      h2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+      }
+      p {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+    }
+    .change {
+      background: #4f8034;
+      padding: 20px;
+      h2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+      }
+      p {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+    }
+  }
+}
