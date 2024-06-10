@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nikhilsingh137/React-Data/static/css/main.b9d9862f.css",
+    "main.js": "/nikhilsingh137/React-Data/static/js/main.a35b0689.js",
+    "static/media/Chairman.jpg": "/nikhilsingh137/React-Data/static/media/Chairman.b5eb397eacbd6c038d50.jpg",
+    "static/media/banner-image.jpg": "/nikhilsingh137/React-Data/static/media/banner-image.d81c24222f5f25c7cdd2.jpg",
+    "static/media/business-partner.jpg": "/nikhilsingh137/React-Data/static/media/business-partner.b17eb8a4a300b23518c3.jpg",
+    "static/media/logo oil.gif": "/nikhilsingh137/React-Data/static/media/logo oil.662b3357968fa7703f9b.gif",
+    "static/media/inddianOil.png": "/nikhilsingh137/React-Data/static/media/inddianOil.2140ef893e80ac30618b.png",
+    "static/media/Natural-Gas.jpg": "/nikhilsingh137/React-Data/static/media/Natural-Gas.44c6f6e1b8d955cdc15c.jpg",
+    "static/media/bannertext-image.jpg": "/nikhilsingh137/React-Data/static/media/bannertext-image.b20243a4100c9575acbc.jpg",
+    "static/media/Logo-iew24.svg": "/nikhilsingh137/React-Data/static/media/Logo-iew24.e0a65b5fc83529cab17bf618a52c5d4e.svg",
+    "static/media/hero-bg.jpg": "/nikhilsingh137/React-Data/static/media/hero-bg.a48fc22743dbef494c4b.jpg",
+    "index.html": "/nikhilsingh137/React-Data/index.html",
+    "main.b9d9862f.css.map": "/nikhilsingh137/React-Data/static/css/main.b9d9862f.css.map",
+    "main.a35b0689.js.map": "/nikhilsingh137/React-Data/static/js/main.a35b0689.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9d9862f.css",
+    "static/js/main.a35b0689.js"
+  ]
+}
